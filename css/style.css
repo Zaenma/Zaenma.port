@@ -27,6 +27,8 @@
    --breakpoint-md: 768px;
    --breakpoint-lg: 992px;
    --breakpoint-xl: 1200px;
+
+   --color: #afa0af;
  }
 
  * {
@@ -37,6 +39,7 @@
 
  body {
    font-family: "Roboto Condensed", sans-serif;
+   background: var(--dark);
  }
 
 
@@ -59,7 +62,6 @@
  .logo {
    font-size: 40px;
    font-weight: 600;
-   /* text-transform: uppercase; */
    letter-spacing: 2px;
    line-height: 4rem;
    background: var(--primary);
@@ -74,13 +76,12 @@
  /* Section header */
 
  .container {
-   padding: 50px 20px;
-   background: var(--dark);
-   min-height: 100vh;
+   padding: 20px 20px;
+   color: var(--color);
  }
 
  .section-accueil {
-   padding: 30px 0;
+   padding: 20px 0;
  }
 
  .texte-accueil .bonjour {
@@ -135,7 +136,6 @@
 
  .description {
    margin-bottom: 10px;
-   color: var(--white);
  }
 
  .description .infos {
@@ -153,7 +153,7 @@
 
  .btn {
    text-align: center;
-   padding-bottom: 80px;
+   padding: 50px 0 0 0;
  }
 
  .btn a {
@@ -226,4 +226,22 @@
      border-radius: 5px;
      padding: 15px 50px;
    }
+ }
+
+ /* Style de hr */
+
+ hr {
+   display: flex;
+   justify-content: center;
+   clear: both;
+   border: 0;
+   font-size: 30px;
+   line-height: 1;
+ }
+
+ hr:after {
+   content: "\273D \273D \273D";
+   height: 0;
+   letter-spacing: 1em;
+   color: var(--primary);
  }
