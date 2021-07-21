@@ -1,0 +1,176 @@
+@media (max-width: 800px) {
+    .page {
+        padding: 0 10px;
+        width: 85vw;
+    }
+
+    .groupe {
+        width: 50%;
+    }
+
+    .progressions {
+        padding-right: 30px;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    /* --------------- home page ----------- */
+    .menu {
+        color: var(--primary);
+    }
+
+
+    .description {
+        font-size: 20px;
+    }
+
+    /* ---------------- skills page ------------------ */
+
+    .progressions {
+        flex-direction: column;
+    }
+
+    .groupe {
+        width: 100%;
+    }
+
+    .groupe i {
+        padding: 12px;
+        margin: 5px;
+    }
+
+    .titre-competence {
+        font-size: 15px;
+        margin-bottom: 2px;
+    }
+
+    .details {
+        font-size: 12px;
+    }
+
+    /* ---------------- About page ------------------ */
+    /* .about .section-groupe {
+        display: flex;
+    } */
+
+    .name {
+        font-size: 23px;
+        font-weight: bold;
+    }
+
+    .cached-text {
+        display: none;
+    }
+
+    .container.active .main {
+        transform: perspective(1300px) rotateY(20deg) translateZ(110px) scale(0.5);
+    }
+
+    .container.active .shadow.one {
+        animation: shadow-one 0.6s ease-out;
+        transform: perspective(1300px) rotateY(20deg) translateZ(40px) scale(0.5);
+    }
+
+    .container.active .shadow.two {
+        animation: shadow-two 0.6s ease-out;
+        transform: perspective(1300px) rotateY(20deg) translateZ(70px) scale(0.5);
+    }
+
+    .container.active .main:hover+.shadow.one {
+        transform: perspective(1300px) rotateY(20deg) translateZ(20px) scale(0.5);
+    }
+
+    .container.active .main:hover {
+        transform: perspective(1300px) rotateY(20deg) translateZ(140px) scale(0.5);
+    }
+}
+
+@media (max-width: 400px) {
+    .btn {
+        padding: 10px 30px;
+    }
+
+    .section-1 img {
+        width: 20vw;
+        /* float: left; */
+    }
+
+    .description-contact {
+        margin-top: 100px;
+        font-size: 15px;
+    }
+
+    .promesse {
+        margin-bottom: 10px;
+    }
+
+    .welcome {
+        margin-top: 10px;
+        font-size: 30px;
+    }
+
+    .infos-contact {
+        font-size: 15px;
+        /* margin-bottom: 5px; */
+    }
+
+    .skills-description {
+        margin-top: 50px;
+        font-size: 15px;
+        margin-left: -20px;
+    }
+}
+
+@media (max-width: 414px) {
+    .about-section {
+        padding-right: 100px;
+    }
+
+    .section-1 img {
+        width: 130px;
+        margin-left: -30px;
+    }
+
+    .progressions {
+        margin-left: -25px;
+    }
+
+    .skills-description {
+        margin-left: -20px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .image {
+        display: none;
+    }
+}
+
+@media (max-width: 340px) {
+    .groupe i {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .titre-competence {
+        font-size: 15px;
+        /* margin-bottom: 3px; */
+    }
+
+    .details {
+        font-size: 12px;
+    }
+
+    .skills-description {
+        margin-top: 80px;
+        font-size: 12px;
+        margin-left: -20px;
+    }
+
+    .progressions {
+        margin-top: 0;
+    }
+}
