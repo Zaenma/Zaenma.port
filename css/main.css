@@ -14,7 +14,7 @@
     --green: #28a745;
     --teal: #20c997;
     --cyan: #17a2b8;
-    --white: var(--dark);
+    --white: #fff;
     --gray: #6c757d;
     --gray-dark: #343a40;
     --primary: #ed0cef;
@@ -742,11 +742,12 @@ ul.social-links li:last-child a {
     font-size: 70px;
     margin: 0
 }
-
+.home-page-description .description{
+    font-size: 30px !important;
+    font-weight: 500 !important;
+}
 .home-page-description {
     color: var(--secondary);
-    font-size: 30px;
-    font-weight: 500;
     font-family: Oswald, Helvetica, sans-serif;
     margin: 5px 0;
     text-align: center
