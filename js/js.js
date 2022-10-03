@@ -1,24 +1,4 @@
 // ---------------------------------
-
-function animateBule() {
-    const bule = document.createElement("span");
-  
-    bule.classList.add("bule");
-    document.body.appendChild(bule);
-    
-    const taille = Math.random() * 100 + 100 + "px";
-    bule.style.height = taille;
-    bule.style.width = taille;
-    bule.style.top = Math.random() * 100 + 50 + "%";
-    bule.style.left = Math.random() * 100 + "%";
-    
-    const plusOuMoins = Math.random() > 0.5 ? 1 : -1;
-    
-    bule.style.setProperty("--left", Math.random() * 100 * plusOuMoins + "%"); 
-  }
-  
-    // Typing 
-  
   const typedTextSpan = document.querySelector(".infos");
   const cursorSpan = document.querySelector(".cursor");
   

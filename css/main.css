@@ -49,6 +49,8 @@ body {
     font-size: 100%;
     line-height: 1.5em;
     background-color: #0b061e;
+    scrollbar-color: #346abf white; /* ascensseur bleu sur fond blanc */
+    scrollbar-size: 20px; /* largeur par défaut */
 }
 
 a {
